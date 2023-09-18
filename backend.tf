@@ -1,7 +1,7 @@
 # // Backend S3 Bucket
 
 resource "aws_s3_bucket" "backend-bucket" {
-  bucket = var.bucket_name
+  bucket = var.be_bucket_name
   versioning {
     enabled = true
   }
